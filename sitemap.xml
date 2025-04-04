@@ -3,12 +3,7 @@
     
     <url>
         <loc>https://devio.stattic.site/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://devio.stattic.site/blog/introducing-boostbox-pro-popup-builder-for-wordpress/</loc>
-        <lastmod>2024-10-21T00:00:00Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
@@ -17,18 +12,18 @@
     </url>
     
     <url>
+        <loc>https://devio.stattic.site/blog/introducing-boostbox-pro-popup-builder-for-wordpress/</loc>
+        <lastmod>2024-10-21T00:00:00Z</lastmod>
+    </url>
+    
+    <url>
         <loc>https://devio.stattic.site/blog/release-notes-waitlist-for-the-events-calendar-v1-3-0/</loc>
         <lastmod>2024-09-09T00:00:00Z</lastmod>
     </url>
     
     <url>
-        <loc>https://devio.stattic.site/blog/delivery-fees-for-woocommerce-v1-6-0-release-notes/</loc>
-        <lastmod>2023-06-13T00:00:00Z</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://devio.stattic.site/blog/delivery-drivers-for-woocommerce-v3-4-0-release-notes/</loc>
-        <lastmod>2023-06-13T00:00:00Z</lastmod>
+        <loc>https://devio.stattic.site/blog/affililink-v1-1-0-expanded-language-support-improved-functionality/</loc>
+        <lastmod>2025-02-07T00:00:00Z</lastmod>
     </url>
     
     <url>
@@ -37,8 +32,18 @@
     </url>
     
     <url>
-        <loc>https://devio.stattic.site/blog/how-to-add-custom-delivery-fees-to-woocommerce/</loc>
-        <lastmod>2019-06-18T00:00:00Z</lastmod>
+        <loc>https://devio.stattic.site/blog/delivery-fees-for-woocommerce-v1-6-0-release-notes/</loc>
+        <lastmod>2023-06-13T00:00:00Z</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://devio.stattic.site/blog/age-verification-pro-v1-0-release-notes/</loc>
+        <lastmod>2019-07-15T00:00:00Z</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://devio.stattic.site/blog/delivery-drivers-for-woocommerce-v3-4-0-release-notes/</loc>
+        <lastmod>2023-06-13T00:00:00Z</lastmod>
     </url>
     
     <url>
@@ -47,8 +52,18 @@
     </url>
     
     <url>
+        <loc>https://devio.stattic.site/blog/how-to-add-custom-delivery-fees-to-woocommerce/</loc>
+        <lastmod>2019-06-18T00:00:00Z</lastmod>
+    </url>
+    
+    <url>
         <loc>https://devio.stattic.site/blog/plugin-pricing-updates/</loc>
         <lastmod>2024-10-23T00:00:00Z</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://devio.stattic.site/blog/ddwc-pro-v1-3-release-notes/</loc>
+        <lastmod>2019-05-11T00:00:00Z</lastmod>
     </url>
     
     <url>
@@ -62,28 +77,8 @@
     </url>
     
     <url>
-        <loc>https://devio.stattic.site/blog/affililink-v1-1-0-expanded-language-support-improved-functionality/</loc>
-        <lastmod>2025-02-07T00:00:00Z</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://devio.stattic.site/blog/age-verification-pro-v1-0-release-notes/</loc>
-        <lastmod>2019-07-15T00:00:00Z</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://devio.stattic.site/blog/ddwc-pro-v1-3-release-notes/</loc>
-        <lastmod>2019-05-11T00:00:00Z</lastmod>
-    </url>
-    
-    <url>
         <loc>https://devio.stattic.site/blog/introducing-affililink-simplify-your-affiliate-marketing-on-wordpress/</loc>
         <lastmod>2024-10-23T00:00:00Z</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://devio.stattic.site/blog/boostbox-v2-0-release-new-features-improved-targeting-and-more/</loc>
-        <lastmod>2024-09-23T00:00:00Z</lastmod>
     </url>
     
     <url>
@@ -92,83 +87,88 @@
     </url>
     
     <url>
+        <loc>https://devio.stattic.site/blog/boostbox-v2-0-release-new-features-improved-targeting-and-more/</loc>
+        <lastmod>2024-09-23T00:00:00Z</lastmod>
+    </url>
+    
+    <url>
         <loc>https://devio.stattic.site//</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/about/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/products/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/blog/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/contact/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/checkout/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/privacy-policy/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/waitlist-for-the-events-calendar/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/shop/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/boostbox-pro/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/my-account/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/terms-conditions/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/cart/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/documentation/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/affililink/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
     <url>
         <loc>https://devio.stattic.site/age-verification-pro/</loc>
-        <lastmod>2025-04-04T18:18:09Z</lastmod>
+        <lastmod>2025-04-04T18:25:06Z</lastmod>
     </url>
     
 </urlset>

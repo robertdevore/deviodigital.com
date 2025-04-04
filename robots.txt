@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap URL
-Sitemap: http://deviodigital.com/sitemap.xml
+Sitemap: https://devio.stattic.site/sitemap.xml

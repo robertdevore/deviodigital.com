@@ -96,20 +96,22 @@
             </ul>
         </nav>
 
-        <!-- Mobile Hamburger -->
-        <button @click="open = !open" class="md:hidden focus:outline-none" aria-label="Toggle navigation">
-            <svg x-show="!open" class="block md:hidden" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 6l16 0" />
-                <path d="M4 12l16 0" />
-                <path d="M4 18l16 0" />
-            </svg>
-            <svg x-show="open" class="block md:hidden" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M18 6l-12 12" />
-                <path d="M6 6l12 12" />
-            </svg>
-        </button>
+        <!-- Mobile Hamburger (visible only on small screens) -->
+        <div class="block md:hidden">
+            <button @click="open = !open" class="focus:outline-none" aria-label="Toggle navigation">
+                <svg x-show="!open" class="block" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 6l16 0" />
+                    <path d="M4 12l16 0" />
+                    <path d="M4 18l16 0" />
+                </svg>
+                <svg x-show="open" class="block" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M18 6l-12 12" />
+                    <path d="M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
     </div>
 
     <!-- Mobile Fullscreen Menu (only visible on mobile screens) -->
@@ -188,7 +190,7 @@
 <p>This caused confusion for both event organizers and attendees, sometimes preventing users from securing tickets to an event that wasn't actually sold out.</p>
 <p>We've fixed this issue in v1.4.0, ensuring that <strong>only</strong> the sold-out ticket types are hidden while keeping available tickets visible.</p>
 <p>This means a <strong>smoother purchasing experience</strong> and fewer headaches for event organizers who rely on waitlists for high-demand events.</p>
-<p><img src="/images/lets-go.webp" alt="GO! GIF" /></p>
+<p><img src="https://www.deviodigital.com/wp-content/uploads/2025/02/lets-go.webp" alt="GO! GIF" /></p>
 <h2>🚀 <strong>Performance &amp; Usability Enhancements</strong></h2>
 <p>We've made several improvements behind the scenes to optimize performance and improve the plugin's overall functionality.</p>
 <p>✔️ <strong>Smarter CSS Loading**<br />

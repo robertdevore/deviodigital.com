@@ -95,20 +95,22 @@
             </ul>
         </nav>
 
-        <!-- Mobile Hamburger -->
-        <button @click="open = !open" class="md:hidden focus:outline-none" aria-label="Toggle navigation">
-            <svg x-show="!open" class="block md:hidden" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 6l16 0" />
-                <path d="M4 12l16 0" />
-                <path d="M4 18l16 0" />
-            </svg>
-            <svg x-show="open" class="block md:hidden" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M18 6l-12 12" />
-                <path d="M6 6l12 12" />
-            </svg>
-        </button>
+        <!-- Mobile Hamburger (visible only on small screens) -->
+        <div class="block md:hidden">
+            <button @click="open = !open" class="focus:outline-none" aria-label="Toggle navigation">
+                <svg x-show="!open" class="block" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 6l16 0" />
+                    <path d="M4 12l16 0" />
+                    <path d="M4 18l16 0" />
+                </svg>
+                <svg x-show="open" class="block" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M18 6l-12 12" />
+                    <path d="M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
     </div>
 
     <!-- Mobile Fullscreen Menu (only visible on mobile screens) -->

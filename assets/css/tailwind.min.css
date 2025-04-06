@@ -616,6 +616,14 @@ video {
   z-index: 50;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -1357,6 +1365,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:order-none {
+    order: 0;
+  }
+
   .md\:col-span-5 {
     grid-column: span 5 / span 5;
   }

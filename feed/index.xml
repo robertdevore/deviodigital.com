@@ -5,7 +5,7 @@
 <link>https://deviodigital.com/</link>
 <description>Latest posts from deviodigital.com</description>
 <atom:link href="https://deviodigital.com/feed/index.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Sun, 06 Apr 2025 06:21:32 GMT</lastBuildDate>
+<lastBuildDate>Sun, 06 Apr 2025 06:41:40 GMT</lastBuildDate>
 <language>en-us</language>
 
 <item>
@@ -14,25 +14,7 @@
 <description>Welcome! Please excuse the dust while the website is finalized. In the meantime, check out our Products -- they're awesome!...
 </description>
 <guid isPermaLink="false">175640175e734b00d14eda1bad3c7fd3</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
-</item>
-
-<item>
-<title>Introducing BoostBox Pro: Helping you take your popups to the next level - deviodigital.com</title>
-<link>https://deviodigital.com/blog/introducing-boostbox-pro-popup-builder-for-wordpress/</link>
-<description>We're thrilled to announce the official release of BoostBox Pro, a premium extension to the recently launched BoostBox 2.0! With this powerful new plugin, you can up your WordPress® popup...
-</description>
-<guid isPermaLink="false">d6e2188d1a7349c47ec2a409b73b5ac4</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
-</item>
-
-<item>
-<title>Delivery Fees for WooCommerce v1.6.0 Release Notes - deviodigital.com</title>
-<link>https://deviodigital.com/blog/delivery-fees-for-woocommerce-v1-6-0-release-notes/</link>
-<description>We are pleased to announce the release of Delivery Fees for WooCommerce version 1.6.0! This update brings important improvements to enhance the compatibility and localization capabilities of the plugin. In...
-</description>
-<guid isPermaLink="false">f15a0e7f91377487f7668a165bf692ff</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
@@ -41,16 +23,16 @@
 <description>We're excited to announce the release of AffiliLink 1.1.0, packed with new features and improvements to enhance usability, accessibility, and performance. This update introduces support for multiple languages, a new...
 </description>
 <guid isPermaLink="false">28a7ff6f7d7256afbdf4329751d846f7</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
-<title>How to manage delivery drivers with WooCommerce - deviodigital.com</title>
-<link>https://deviodigital.com/blog/how-to-manage-delivery-drivers-with-woocommerce/</link>
-<description>For those of us not living under a rock, it's no secret that delivery services are on the rise around the world. And for good reason, because we're all busier...
+<title>Introducing BoostBox Pro: Helping you take your popups to the next level - deviodigital.com</title>
+<link>https://deviodigital.com/blog/introducing-boostbox-pro-popup-builder-for-wordpress/</link>
+<description>We're thrilled to announce the official release of BoostBox Pro, a premium extension to the recently launched BoostBox 2.0! With this powerful new plugin, you can up your WordPress® popup...
 </description>
-<guid isPermaLink="false">ee9f4c06c6a14556bd9ec21a4db12ccb</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<guid isPermaLink="false">d6e2188d1a7349c47ec2a409b73b5ac4</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
@@ -59,52 +41,16 @@
 <description>We are excited to announce the release of Delivery Drivers for WooCommerce version 3.4.0! A long time in the making, this update brings several bug fixes, improvements, and general code...
 </description>
 <guid isPermaLink="false">34a83ae3b14b6f1ee8b9dd4f43c4a6b2</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
-<title>Plugin Pricing Updates - deviodigital.com</title>
-<link>https://deviodigital.com/blog/plugin-pricing-updates/</link>
-<description>At Devio Digital, we're always striving to provide the best value and flexibility for our customers, and today is no different. We've recently made some changes to our pricing structure,...
+<title>Delivery Fees for WooCommerce v1.6.0 Release Notes - deviodigital.com</title>
+<link>https://deviodigital.com/blog/delivery-fees-for-woocommerce-v1-6-0-release-notes/</link>
+<description>We are pleased to announce the release of Delivery Fees for WooCommerce version 1.6.0! This update brings important improvements to enhance the compatibility and localization capabilities of the plugin. In...
 </description>
-<guid isPermaLink="false">3c5b864aade06615c3d86c56bd53a31b</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
-</item>
-
-<item>
-<title>How to use the Delivery Times for WooCommerce plugin - deviodigital.com</title>
-<link>https://deviodigital.com/blog/how-to-use-the-delivery-times-for-woocommerce-plugin/</link>
-<description>We recently released Delivery Times for WooCommerce, a free plugin that customizes your checkout to allow customers to select a delivery date and time when placing an order. There's a...
-</description>
-<guid isPermaLink="false">8bf277aa4e6c79145bc629cd01b8f573</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
-</item>
-
-<item>
-<title>How to add custom delivery fees to WooCommerce - deviodigital.com</title>
-<link>https://deviodigital.com/blog/how-to-add-custom-delivery-fees-to-woocommerce/</link>
-<description>This article is going to show you how to use our Delivery Fees for WooCommerce plugin to set delivery prices based on your admin settings. Delivery Fees for WooCommerce (DFWC...
-</description>
-<guid isPermaLink="false">12996b7caa76434d8a64a7e210e71d7e</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
-</item>
-
-<item>
-<title>Release Notes: Age Verification for WordPress® v3.0.0 - deviodigital.com</title>
-<link>https://deviodigital.com/blog/release-notes-age-verification-for-wordpress-v3-0-0/</link>
-<description>The latest update to Age Verification for WordPress®** brings several exciting improvements, including a dedicated settings page for **Full Site Editing (FSE) themes, expanded translation support, and important refinements to...
-</description>
-<guid isPermaLink="false">3928c35776dd2845b6f6141287f0e223</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
-</item>
-
-<item>
-<title>Release Notes: Waitlist for The Events Calendar v1.3.0 - deviodigital.com</title>
-<link>https://deviodigital.com/blog/release-notes-waitlist-for-the-events-calendar-v1-3-0/</link>
-<description>We are excited to announce the release of version 1.3.0 of Waitlist for The Events Calendar. This update brings several improvements and optimizations designed to enhance your experience and streamline...
-</description>
-<guid isPermaLink="false">2086be1976c81c501e70fbb36111e324</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<guid isPermaLink="false">f15a0e7f91377487f7668a165bf692ff</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
@@ -113,16 +59,52 @@
 <description>We just released version 1.3 of our Delivery Drivers for WooCommerce Pro plugin and it's full of awesomeness! Beyond the smaller code enhancements that have been done in this release,...
 </description>
 <guid isPermaLink="false">b88a1e865a46f4cb75ae2e91767fb00a</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
-<title>Age Verification Pro v1.0 Release Notes - deviodigital.com</title>
-<link>https://deviodigital.com/blog/age-verification-pro-v1-0-release-notes/</link>
-<description>Following the release of our newest plugin -- Customer Loyalty for WooCommerce -- is the release of another new plugin: Age Verification Pro. Originally built as an add-on for the...
+<title>How to add custom delivery fees to WooCommerce - deviodigital.com</title>
+<link>https://deviodigital.com/blog/how-to-add-custom-delivery-fees-to-woocommerce/</link>
+<description>This article is going to show you how to use our Delivery Fees for WooCommerce plugin to set delivery prices based on your admin settings. Delivery Fees for WooCommerce (DFWC...
 </description>
-<guid isPermaLink="false">d432b34ef7996313be54ce0098e5b1ca</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<guid isPermaLink="false">12996b7caa76434d8a64a7e210e71d7e</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
+</item>
+
+<item>
+<title>How to use the Delivery Times for WooCommerce plugin - deviodigital.com</title>
+<link>https://deviodigital.com/blog/how-to-use-the-delivery-times-for-woocommerce-plugin/</link>
+<description>We recently released Delivery Times for WooCommerce, a free plugin that customizes your checkout to allow customers to select a delivery date and time when placing an order. There's a...
+</description>
+<guid isPermaLink="false">8bf277aa4e6c79145bc629cd01b8f573</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
+</item>
+
+<item>
+<title>Release Notes: Age Verification for WordPress® v3.0.0 - deviodigital.com</title>
+<link>https://deviodigital.com/blog/release-notes-age-verification-for-wordpress-v3-0-0/</link>
+<description>The latest update to Age Verification for WordPress®** brings several exciting improvements, including a dedicated settings page for **Full Site Editing (FSE) themes, expanded translation support, and important refinements to...
+</description>
+<guid isPermaLink="false">3928c35776dd2845b6f6141287f0e223</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
+</item>
+
+<item>
+<title>Release Notes: Waitlist for The Events Calendar v1.3.0 - deviodigital.com</title>
+<link>https://deviodigital.com/blog/release-notes-waitlist-for-the-events-calendar-v1-3-0/</link>
+<description>We are excited to announce the release of version 1.3.0 of Waitlist for The Events Calendar. This update brings several improvements and optimizations designed to enhance your experience and streamline...
+</description>
+<guid isPermaLink="false">2086be1976c81c501e70fbb36111e324</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
+</item>
+
+<item>
+<title>Plugin Pricing Updates - deviodigital.com</title>
+<link>https://deviodigital.com/blog/plugin-pricing-updates/</link>
+<description>At Devio Digital, we're always striving to provide the best value and flexibility for our customers, and today is no different. We've recently made some changes to our pricing structure,...
+</description>
+<guid isPermaLink="false">3c5b864aade06615c3d86c56bd53a31b</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
@@ -131,16 +113,25 @@
 <description>Today I'm happy to release the newest plugin from Devio Digital, Customer Loyalty for WooCommerce. CLWC is a loyalty points and rewards card system that you can set up to...
 </description>
 <guid isPermaLink="false">c4545c85fc31f3f65c3529d15e080e59</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
-<title>Introducing Affililink: Simplify Your Affiliate Marketing on WordPress® - deviodigital.com</title>
-<link>https://deviodigital.com/blog/introducing-affililink-simplify-your-affiliate-marketing-on-wordpress/</link>
-<description>Today we are excited to introduce AffiliLink, a new WordPress® plugin designed to streamline your affiliate marketing efforts. AffiliLink automatically replaces specified keywords in your website content with your chosen...
+<title>How to manage delivery drivers with WooCommerce - deviodigital.com</title>
+<link>https://deviodigital.com/blog/how-to-manage-delivery-drivers-with-woocommerce/</link>
+<description>For those of us not living under a rock, it's no secret that delivery services are on the rise around the world. And for good reason, because we're all busier...
 </description>
-<guid isPermaLink="false">b43869a0385d1442dafb081504f7bb1a</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<guid isPermaLink="false">ee9f4c06c6a14556bd9ec21a4db12ccb</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
+</item>
+
+<item>
+<title>Age Verification Pro v1.0 Release Notes - deviodigital.com</title>
+<link>https://deviodigital.com/blog/age-verification-pro-v1-0-release-notes/</link>
+<description>Following the release of our newest plugin -- Customer Loyalty for WooCommerce -- is the release of another new plugin: Age Verification Pro. Originally built as an add-on for the...
+</description>
+<guid isPermaLink="false">d432b34ef7996313be54ce0098e5b1ca</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
@@ -149,7 +140,16 @@
 <description>We're thrilled to introduce Waitlist for The Events Calendar v1.4.0, packed with new language translations, critical bug fixes, and performance enhancements to make managing event waitlists easier and more efficient....
 </description>
 <guid isPermaLink="false">23a9f640324af6ec53ac720045f942ac</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
+</item>
+
+<item>
+<title>Introducing Affililink: Simplify Your Affiliate Marketing on WordPress® - deviodigital.com</title>
+<link>https://deviodigital.com/blog/introducing-affililink-simplify-your-affiliate-marketing-on-wordpress/</link>
+<description>Today we are excited to introduce AffiliLink, a new WordPress® plugin designed to streamline your affiliate marketing efforts. AffiliLink automatically replaces specified keywords in your website content with your chosen...
+</description>
+<guid isPermaLink="false">b43869a0385d1442dafb081504f7bb1a</guid>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 <item>
@@ -158,7 +158,7 @@
 <description>We're excited to announce the release of BoostBox v2.0, packed with new features and enhancements that have been in the works for a long time. These updates aim to give...
 </description>
 <guid isPermaLink="false">30cb6b541baf1ffc7d9955a86db549f1</guid>
-<pubDate>Sun, 06 Apr 2025 02:21:32 +0000</pubDate>
+<pubDate>Sun, 06 Apr 2025 02:41:40 +0000</pubDate>
 </item>
 
 </channel>

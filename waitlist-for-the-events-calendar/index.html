@@ -48,37 +48,47 @@
             </a>
         </h2>
 
-        <!-- Desktop Nav -->
+        <!-- Desktop Navigation -->
         <nav class="hidden md:block">
             <ul class="flex space-x-6">
                 
                     
                         <li>
-                            <a href="https://deviodigital.com/" class="text-primary hover:underline quicksand-700">Home</a>
+                            <a href="https://deviodigital.com/" class="text-primary hover:underline quicksand-700">
+                                Home
+                            </a>
                         </li>
                     
                 
                     
                         <li>
-                            <a href="https://deviodigital.com/about" class="text-primary hover:underline quicksand-700">About</a>
+                            <a href="https://deviodigital.com/about" class="text-primary hover:underline quicksand-700">
+                                About
+                            </a>
                         </li>
                     
                 
                     
                         <li>
-                            <a href="https://deviodigital.com/products" class="text-primary hover:underline quicksand-700">Products</a>
+                            <a href="https://deviodigital.com/products" class="text-primary hover:underline quicksand-700">
+                                Products
+                            </a>
                         </li>
                     
                 
                     
                         <li>
-                            <a href="https://deviodigital.com/blog" class="text-primary hover:underline quicksand-700">Blog</a>
+                            <a href="https://deviodigital.com/blog" class="text-primary hover:underline quicksand-700">
+                                Blog
+                            </a>
                         </li>
                     
                 
                     
                         <li>
-                            <a href="https://deviodigital.com/contact" class="text-primary hover:underline quicksand-700">Contact</a>
+                            <a href="https://deviodigital.com/contact" class="text-primary hover:underline quicksand-700">
+                                Contact
+                            </a>
                         </li>
                     
                 
@@ -101,7 +111,7 @@
             </ul>
         </nav>
 
-        <!-- Mobile Hamburger Button (only on small screens) -->
+        <!-- Mobile Hamburger Icon -->
         <button @click="open = !open" class="block md:hidden focus:outline-none" aria-label="Toggle navigation">
             <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -112,7 +122,7 @@
         </button>
     </div>
 
-    <!-- Mobile Fullscreen Overlay Nav -->
+    <!-- Fullscreen Mobile Menu -->
     <div 
         x-show="open"
         x-transition:enter="transition ease-out duration-300"
@@ -121,7 +131,7 @@
         x-transition:leave="transition ease-in duration-200"
         x-transition:leave-start="opacity-100"
         x-transition:leave-end="opacity-0"
-        class="fixed inset-0 bg-white text-center flex flex-col justify-center items-center space-y-6 z-40 md:hidden"
+        class="fixed inset-0 h-screen w-screen bg-white text-center flex flex-col justify-center items-center space-y-6 z-40 md:hidden"
         @click.away="open = false"
     >
         

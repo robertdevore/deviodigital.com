@@ -43,8 +43,8 @@
         </a>
       </h2>
   
-      <!-- Desktop Nav (Visible ≥ md) -->
-      <nav class="hidden md:flex space-x-6">
+      <!-- Desktop Nav (Right aligned) -->
+      <nav class="hidden md:flex space-x-6 ml-auto">
         
           
             <a href="/" class="text-primary hover:underline quicksand-700">
@@ -94,30 +94,30 @@
         
       </nav>
   
-      <!-- Hamburger Icon (Visible < md) -->
-      <button @click="open = !open" class="md:hidden focus:outline-none z-50" aria-label="Toggle navigation">
-        <!-- Hamburger -->
-        <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak>
+      <!-- Hamburger (Mobile Only) -->
+      <button @click="open = !open" class="md:hidden focus:outline-none z-50 ml-auto" aria-label="Toggle navigation">
+        <!-- Open Icon -->
+        <svg x-show="!open" x-cloak xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
-        <!-- Close -->
-        <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak>
+        <!-- Close Icon -->
+        <svg x-show="open" x-cloak xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
     </div>
   
-    <!-- Mobile Nav Overlay (Visible < md) -->
+    <!-- Mobile Fullscreen Nav -->
     <div
       x-show="open"
+      x-cloak
       x-transition:enter="transition ease-out duration-300"
       x-transition:enter-start="opacity-0"
       x-transition:enter-end="opacity-100"
       x-transition:leave="transition ease-in duration-200"
       x-transition:leave-start="opacity-100"
       x-transition:leave-end="opacity-0"
-      class="fixed inset-0 h-screen w-screen bg-white text-center flex flex-col justify-center items-center space-y-6 z-40 md:hidden"
-      x-cloak
+      class="fixed inset-0 bg-white h-screen w-screen flex flex-col items-center justify-center space-y-6 text-center z-40 md:hidden"
       @click.away="open = false"
     >
       
@@ -168,7 +168,7 @@
         
       
     </div>
-  </header>
+</header>
   
 
 <main class="container max-w-2xl m-auto py-10 px-4" id="main-content">
@@ -184,17 +184,17 @@
         
         <li>
             <h2 class="text-4xl mb-2 font-bold quicksand-700">
-                <a href="/blog/affililink-v1-1-0-expanded-language-support-improved-functionality/" class="text-links hover:underline">AffiliLink v1.1.0: Expanded Language Support &amp; Improved Functionality</a>
+                <a href="/blog/release-notes-age-verification-for-wordpress-v3-0-0/" class="text-links hover:underline">Release Notes: Age Verification for WordPress® v3.0.0</a>
             </h2>
-            <div class="mb-2"><p>We're excited to announce the release of <strong>AffiliLink 1.1.0<strong>, packed with new features and improvements to enhance usability, accessibility, and performance. This update introduces </strong>support for multiple languages</strong>, a new...</p>
+            <div class="mb-2"><p>The latest update to <strong><a href="https://github.com/deviodigital/dispensary-age-verification">Age Verification for WordPress®</a>** brings several exciting improvements, including a dedicated settings page for **Full Site Editing (FSE) themes</strong>, expanded translation support, and important refinements to...</p>
 </div>
         </li>
         
         <li>
             <h2 class="text-4xl mb-2 font-bold quicksand-700">
-                <a href="/blog/release-notes-age-verification-for-wordpress-v3-0-0/" class="text-links hover:underline">Release Notes: Age Verification for WordPress® v3.0.0</a>
+                <a href="/blog/affililink-v1-1-0-expanded-language-support-improved-functionality/" class="text-links hover:underline">AffiliLink v1.1.0: Expanded Language Support &amp; Improved Functionality</a>
             </h2>
-            <div class="mb-2"><p>The latest update to <strong><a href="https://github.com/deviodigital/dispensary-age-verification">Age Verification for WordPress®</a>** brings several exciting improvements, including a dedicated settings page for **Full Site Editing (FSE) themes</strong>, expanded translation support, and important refinements to...</p>
+            <div class="mb-2"><p>We're excited to announce the release of <strong>AffiliLink 1.1.0<strong>, packed with new features and improvements to enhance usability, accessibility, and performance. This update introduces </strong>support for multiple languages</strong>, a new...</p>
 </div>
         </li>
         

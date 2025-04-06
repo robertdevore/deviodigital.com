@@ -44,8 +44,8 @@
         </a>
       </h2>
   
-      <!-- Desktop Nav (Visible ≥ md) -->
-      <nav class="hidden md:flex space-x-6">
+      <!-- Desktop Nav (Right aligned) -->
+      <nav class="hidden md:flex space-x-6 ml-auto">
         
           
             <a href="https://deviodigital.com/" class="text-primary hover:underline quicksand-700">
@@ -95,30 +95,30 @@
         
       </nav>
   
-      <!-- Hamburger Icon (Visible < md) -->
-      <button @click="open = !open" class="md:hidden focus:outline-none z-50" aria-label="Toggle navigation">
-        <!-- Hamburger -->
-        <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak>
+      <!-- Hamburger (Mobile Only) -->
+      <button @click="open = !open" class="md:hidden focus:outline-none z-50 ml-auto" aria-label="Toggle navigation">
+        <!-- Open Icon -->
+        <svg x-show="!open" x-cloak xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
-        <!-- Close -->
-        <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak>
+        <!-- Close Icon -->
+        <svg x-show="open" x-cloak xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
     </div>
   
-    <!-- Mobile Nav Overlay (Visible < md) -->
+    <!-- Mobile Fullscreen Nav -->
     <div
       x-show="open"
+      x-cloak
       x-transition:enter="transition ease-out duration-300"
       x-transition:enter-start="opacity-0"
       x-transition:enter-end="opacity-100"
       x-transition:leave="transition ease-in duration-200"
       x-transition:leave-start="opacity-100"
       x-transition:leave-end="opacity-0"
-      class="fixed inset-0 h-screen w-screen bg-white text-center flex flex-col justify-center items-center space-y-6 z-40 md:hidden"
-      x-cloak
+      class="fixed inset-0 bg-white h-screen w-screen flex flex-col items-center justify-center space-y-6 text-center z-40 md:hidden"
       @click.away="open = false"
     >
       
@@ -169,7 +169,7 @@
         
       
     </div>
-  </header>
+</header>
   
 
 <main class="container max-w-2xl m-auto py-10 px-4" id="main-content">
@@ -185,7 +185,7 @@
 <p>AffiliLink is a user-friendly plugin for affiliate marketers that helps you manage and insert affiliate links across your WordPress® site with minimal effort.</p>
 <p>By specifying keywords and associating them with affiliate URLs, AffiliLink automatically integrates these links into your content.</p>
 <p>This not only saves you time but also guarantees consistency and accuracy throughout your site.</p>
-<p><img src="https://www.deviodigital.com/wp-content/uploads/2024/10/time-is-money.webp" alt="" /></p>
+<p><img src="/images/time-is-money.webp" alt="" /></p>
 <h2>Key Features</h2>
 <ul>
 <li><strong>Automatic Keyword Replacement</strong>: Define keywords that will be automatically linked to your affiliate URLs across all your content.</li>

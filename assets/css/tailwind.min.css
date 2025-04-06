@@ -755,6 +755,10 @@ video {
   max-width: 72rem;
 }
 
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -1403,6 +1407,10 @@ video {
 
   .md\:max-w-2xl {
     max-width: 42rem;
+  }
+
+  .md\:max-w-none {
+    max-width: none;
   }
 
   .md\:grid-cols-12 {

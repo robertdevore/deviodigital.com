@@ -37,149 +37,140 @@
 
 <header id="navigation" class="bg-background relative z-50" x-data="{ open: false }">
     <div class="container max-w-screen-xl m-auto py-6 px-4 flex justify-between items-center">
-        <!-- Logo -->
-        <h2 class="text-3xl font-bold quicksand-700">
-            <a href="https://deviodigital.com" class="text-links">
-                <img src="https://deviodigital.com/assets/images/devio-digital-logo.png" alt="Devio Digital" />
+      <!-- Logo -->
+      <h2 class="text-3xl font-bold quicksand-700">
+        <a href="https://deviodigital.com" class="text-links">
+          <img src="https://deviodigital.com/assets/images/devio-digital-logo.png" alt="Devio Digital" />
+        </a>
+      </h2>
+  
+      <!-- Desktop Nav (Visible ≥ md) -->
+      <nav class="hidden md:flex space-x-6">
+        
+          
+            <a href="https://deviodigital.com/" class="text-primary hover:underline quicksand-700">
+              Home
             </a>
-        </h2>
-
-        <!-- Desktop Navigation -->
-        <nav class="hidden md:block">
-            <ul class="flex space-x-6">
-                
-                    
-                        <li>
-                            <a href="https://deviodigital.com/" class="text-primary hover:underline quicksand-700">
-                                Home
-                            </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                            <a href="https://deviodigital.com/about" class="text-primary hover:underline quicksand-700">
-                                About
-                            </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                            <a href="https://deviodigital.com/products" class="text-primary hover:underline quicksand-700">
-                                Products
-                            </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                            <a href="https://deviodigital.com/blog" class="text-primary hover:underline quicksand-700">
-                                Blog
-                            </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                            <a href="https://deviodigital.com/contact" class="text-primary hover:underline quicksand-700">
-                                Contact
-                            </a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </nav>
-
-        <!-- Mobile Hamburger Icon -->
-        <button @click="open = !open" class="block md:hidden focus:outline-none" aria-label="Toggle navigation">
-            <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-            <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-        </button>
+          
+        
+          
+            <a href="https://deviodigital.com/about" class="text-primary hover:underline quicksand-700">
+              About
+            </a>
+          
+        
+          
+            <a href="https://deviodigital.com/products" class="text-primary hover:underline quicksand-700">
+              Products
+            </a>
+          
+        
+          
+            <a href="https://deviodigital.com/blog" class="text-primary hover:underline quicksand-700">
+              Blog
+            </a>
+          
+        
+          
+            <a href="https://deviodigital.com/contact" class="text-primary hover:underline quicksand-700">
+              Contact
+            </a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </nav>
+  
+      <!-- Hamburger Icon (Visible < md) -->
+      <button @click="open = !open" class="md:hidden focus:outline-none z-50" aria-label="Toggle navigation">
+        <!-- Hamburger -->
+        <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <!-- Close -->
+        <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
     </div>
-
-    <!-- Fullscreen Mobile Menu -->
-    <div 
-        x-show="open"
-        x-transition:enter="transition ease-out duration-300"
-        x-transition:enter-start="opacity-0"
-        x-transition:enter-end="opacity-100"
-        x-transition:leave="transition ease-in duration-200"
-        x-transition:leave-start="opacity-100"
-        x-transition:leave-end="opacity-0"
-        class="fixed inset-0 h-screen w-screen bg-white text-center flex flex-col justify-center items-center space-y-6 z-40 md:hidden"
-        @click.away="open = false"
+  
+    <!-- Mobile Nav Overlay (Visible < md) -->
+    <div
+      x-show="open"
+      x-transition:enter="transition ease-out duration-300"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="transition ease-in duration-200"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      class="fixed inset-0 h-screen w-screen bg-white text-center flex flex-col justify-center items-center space-y-6 z-40 md:hidden"
+      x-cloak
+      @click.away="open = false"
     >
+      
         
-            
-                <a href="https://deviodigital.com/" class="text-2xl quicksand-700 hover:underline" @click="open = false">
-                    Home
-                </a>
-            
+          <a href="https://deviodigital.com/" class="text-2xl quicksand-700 hover:underline" @click="open = false">
+            Home
+          </a>
         
-            
-                <a href="https://deviodigital.com/about" class="text-2xl quicksand-700 hover:underline" @click="open = false">
-                    About
-                </a>
-            
+      
         
-            
-                <a href="https://deviodigital.com/products" class="text-2xl quicksand-700 hover:underline" @click="open = false">
-                    Products
-                </a>
-            
+          <a href="https://deviodigital.com/about" class="text-2xl quicksand-700 hover:underline" @click="open = false">
+            About
+          </a>
         
-            
-                <a href="https://deviodigital.com/blog" class="text-2xl quicksand-700 hover:underline" @click="open = false">
-                    Blog
-                </a>
-            
+      
         
-            
-                <a href="https://deviodigital.com/contact" class="text-2xl quicksand-700 hover:underline" @click="open = false">
-                    Contact
-                </a>
-            
+          <a href="https://deviodigital.com/products" class="text-2xl quicksand-700 hover:underline" @click="open = false">
+            Products
+          </a>
         
-            
+      
         
-            
+          <a href="https://deviodigital.com/blog" class="text-2xl quicksand-700 hover:underline" @click="open = false">
+            Blog
+          </a>
         
-            
+      
         
-            
+          <a href="https://deviodigital.com/contact" class="text-2xl quicksand-700 hover:underline" @click="open = false">
+            Contact
+          </a>
         
-            
+      
         
-            
+      
         
-            
+      
         
-            
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
     </div>
-</header>
-
+  </header>
+  
 
 <section class="py-8 antialiased">
     <div class="mx-auto grid max-w-screen-xl px-4 pb-8 md:grid-cols-12 lg:gap-12 lg:pb-16 xl:gap-0">

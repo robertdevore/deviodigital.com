@@ -316,3 +316,7 @@ header#navigation a img {
 .alt-btn:hover {
     background: #df4743;
 }
+
+#mobile-nav {
+    height: 100vh;
+}

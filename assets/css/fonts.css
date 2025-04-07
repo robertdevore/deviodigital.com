@@ -1,5 +1,50 @@
 
 @font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/playfair display-300.woff2') format('woff2'), 
+         url('../fonts/playfair display-300.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/playfair display-400.woff2') format('woff2'), 
+         url('../fonts/playfair display-400.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/playfair display-500.woff2') format('woff2'), 
+         url('../fonts/playfair display-500.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/playfair display-600.woff2') format('woff2'), 
+         url('../fonts/playfair display-600.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/playfair display-700.woff2') format('woff2'), 
+         url('../fonts/playfair display-700.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
@@ -46,53 +91,4 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-@font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url('../fonts/playfair display-300.woff2') format('woff2'), 
-         url('../fonts/playfair display-300.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('../fonts/playfair display-400.woff2') format('woff2'), 
-         url('../fonts/playfair display-400.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url('../fonts/playfair display-500.woff2') format('woff2'), 
-         url('../fonts/playfair display-500.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url('../fonts/playfair display-600.woff2') format('woff2'), 
-         url('../fonts/playfair display-600.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url('../fonts/playfair display-700.woff2') format('woff2'), 
-         url('../fonts/playfair display-700.ttf') format('truetype');
-}
-
-body {
-    font-family: 'Playfair Display', sans-serif;
 }

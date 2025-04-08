@@ -44,6 +44,10 @@
          url('../fonts/playfair display-700.ttf') format('truetype');
 }
 
+body {
+    font-family: 'Playfair Display', sans-serif;
+}
+
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;

@@ -1409,8 +1409,8 @@ video {
     max-width: 42rem;
   }
 
-  .md\:max-w-full {
-    max-width: 100%;
+  .md\:max-w-\[600px\] {
+    max-width: 600px;
   }
 
   .md\:max-w-none {

@@ -260,7 +260,6 @@ h1, h2, h3, h4 {
     margin-left: 1.5rem;
 }
 
-
 #home-hero:after {
     background-image: url(/assets/images/bg-home-hero.webp);
     background-size: cover;

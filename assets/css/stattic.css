@@ -330,3 +330,7 @@ header#navigation a img {
 .relative {
   position: relative;
 }
+
+.z-2 {
+    z-index: 2;
+}

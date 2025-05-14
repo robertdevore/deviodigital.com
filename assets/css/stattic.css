@@ -326,3 +326,7 @@ header#navigation a img {
 #mobile-nav {
     height: 100vh;
 }
+
+.relative {
+  position: relative;
+}
